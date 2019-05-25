@@ -13,7 +13,7 @@ class BasicsDemo {
     };
 
     // 3. Printing to console
-    static void print() {
+    static void printA() {
         System.out.println("\n\nInside Print ...");
         System.out.print("HELLO");
     }
@@ -24,4 +24,18 @@ class BasicsDemo {
 
     // 5. Arithmetic Operations
 
+    static void printB() {
+        int a = 2;
+        int b = 6;
+
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+    }
+
+    public static void main(String[] args) {
+        printB();
+    }
 }
