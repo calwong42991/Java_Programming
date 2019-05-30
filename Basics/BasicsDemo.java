@@ -1,27 +1,21 @@
 class BasicsDemo {
-        // 1. Namin
-    //  
-      // ules for classes
-          // a) First Charact
-            // Remaining: letter, underscore, $, number
-            // b) No reserved 
-              
-            // 2. **Java is case-sens
-            int id1 = 0; 
-            int id = 1; 
-     
+    // 1. Naming rules for classes/methods/variables
+    // a) First Character: letter, underscore, $
+    // Remaining: letter, underscore, $, numbers
+    // b) No reserved keywords
 
-    
-        
-              / 
-     
-     
-        System.out.println("Hello, world!!"); // Advance cursor to beginning of next line
-        System.out.println(); // Print empty line
-        System.out.print("Hello, world!!"); // Cursor stayed after the printed string
-        System.out.println("Hello,");
-        System.out.print(" "); // Print a space
-        System.out.print("world!!");
+    // 2. **Java is case-sensitive
+    int id1 = 0;
+    int id = 1;
+    int ID = 2;
+
+    void foo() {
+    };
+
+    // 3. Printing to console
+    static void printA() {
+        System.out.println("\n\nInside Print ...");
+        System.out.print("HELLO");
     }
 
     // 4. Comments or disabling code
@@ -44,4 +38,4 @@ class BasicsDemo {
     public static void main(String[] args) {
         printB();
     }
-};
+}
